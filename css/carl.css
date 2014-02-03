@@ -1,0 +1,75 @@
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -35px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 35px;
+}
+#footer {
+  background-color: #1C1C1C;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.center.navbar .nav,
+.center.navbar .nav > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+}
+.center .navbar-inner {
+    text-align:center;
+}
+
+.center-navbar {
+   text-align: center;
+}
+.center-navbar > li {
+   float: none;
+   display: inline-block;
+}
+.center .dropdown-menu {
+    text-align: left;
+}
+.center-image {
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
+   vertical-align:middle;
+}
+
+.center-image2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+}
+#cc-color {
+  color: #FFFF00;
+}
+
+
+
+
